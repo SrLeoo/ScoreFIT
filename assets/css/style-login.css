@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0a1010;
+    color: #fff;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .logo {
+    padding: 30px;
+    font-size: 4rem;
+}
+
+.container .logo a {
+    color: #944a57
+}
+
+.container p {
+    padding-bottom: 30px;
+}
+
+.container .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container .header h1 {
+    color: #D9963B;
+}
+
+.container .header span {
+    padding-top: 16px;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container form .inputContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container form .inputContainer label {
+    margin-bottom: 8px;
+}
+
+.container form .inputContainer input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    width: 27vw;
+    height: 50px;
+    border: 2px solid #944a57;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.container form button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fff;
+    padding: 16px;
+    width: 27vw;
+    height: 50px;
+    border: 2px solid #944a57;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.container form button:hover {
+    background-color: #944a57;
+}
