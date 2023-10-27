@@ -86,8 +86,24 @@
     border: 2px solid #944a57;
     border-radius: 12px;
     margin-bottom: 12px;
+
 }
 
 .container form button:hover {
     background-color: #944a57;
 }
+
+.container .changepassword{
+    color: #fff;
+    font-size: 12px;
+}
+
+/* Erro ao login */
+
+.container .invalido{
+    display: none;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+/* Erro ao login */

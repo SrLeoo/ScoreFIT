@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SF - Login</title>
     <link rel="stylesheet" href="./assets/css/style-login.css">
 </head>
+
 <body>
     <div class='container'>
         <h1 class='logo'><a>Score</a>FIT</h1>
@@ -21,10 +23,16 @@
                 <input type='password' name='password' id='password' placeholder='********' />
             </div>
 
-            <button class='button' type='submit'>Acessar minha conta</button>
+            <p class='invalido' id="mensagemErro">Código ou senha incorreto</p>
+
+            <button class='button' type='submit' onclick="logar(); return false">Acessar minha conta</button>
         </form>
 
-        <a class='changepassword' href="./scr/pages/changepassword.html">Esqueci minha senha</a>
+        <a class='changepassword' href="./pages/changepassword.html">Esqueci minha senha</a>
     </div>
+    
+    <script src="./assets/js/login.js"></script>
 </body>
+
+
 </html>
